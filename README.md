@@ -58,15 +58,6 @@ O código está organizado da seguinte forma:
 
 - **Função principal**: A função `main` executa todas as funções de plotagem para exibir as diferentes redes em sequência.
 
-## Contribuições
-
-Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga os passos abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature: `git checkout -b minha-feature`.
-3. Faça commit das suas alterações: `git commit -am 'Adicionando minha feature'`.
-4. Envie a branch para o seu fork: `git push origin minha-feature`.
-5. Abra um pull request explicando as mudanças.
 
 ## Licença
 
@@ -77,4 +68,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 Para dúvidas ou sugestões, entre em contato:
 
 - **Email**: seu-email@example.com
-- **GitHub**: [seu-usuario](https://github.com/seu-usuario)
+- **GitHub**: [pauloneto342](https://github.com/pauloneto342)
