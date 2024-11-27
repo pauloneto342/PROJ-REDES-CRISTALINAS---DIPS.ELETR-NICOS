@@ -31,19 +31,19 @@ pip install numpy matplotlib
 1. Clone o repositório para o seu computador:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/pauloneto342/PROJ-REDES-CRISTALINAS---DIPS.ELETR-NICOS
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd nome-do-repositorio
+cd PROJ-REDES-CRISTALINAS---DIPS.ELETR-NICOS
 ```
 
 3. Execute o script Python para gerar as visualizações das redes cristalinas:
 
 ```bash
-python nome_do_arquivo.py
+python DISPOSITIVOS-PROj.py
 ```
 
 Isso abrirá as visualizações das redes cristalinas em gráficos 3D usando **matplotlib**. Você pode interagir com os gráficos para explorar as estruturas.
