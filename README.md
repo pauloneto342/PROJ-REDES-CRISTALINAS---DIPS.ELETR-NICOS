@@ -67,5 +67,5 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 Para dúvidas ou sugestões, entre em contato:
 
-- **Email**: seu-email@example.com
+- **Email**: paulo.fernandojacinto@ufrpe.br
 - **GitHub**: [pauloneto342](https://github.com/pauloneto342)
