@@ -31,19 +31,19 @@ pip install numpy matplotlib
 1. Clone o repositório para o seu computador:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/pauloneto342/PROJ-REDES-CRISTALINAS---DIPS.ELETR-NICOS
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd nome-do-repositorio
+cd PROJ-REDES-CRISTALINAS---DIPS.ELETR-NICOS
 ```
 
 3. Execute o script Python para gerar as visualizações das redes cristalinas:
 
 ```bash
-python nome_do_arquivo.py
+python DISPOSITIVOS-PROj.py
 ```
 
 Isso abrirá as visualizações das redes cristalinas em gráficos 3D usando **matplotlib**. Você pode interagir com os gráficos para explorar as estruturas.
@@ -58,15 +58,6 @@ O código está organizado da seguinte forma:
 
 - **Função principal**: A função `main` executa todas as funções de plotagem para exibir as diferentes redes em sequência.
 
-## Contribuições
-
-Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga os passos abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature: `git checkout -b minha-feature`.
-3. Faça commit das suas alterações: `git commit -am 'Adicionando minha feature'`.
-4. Envie a branch para o seu fork: `git push origin minha-feature`.
-5. Abra um pull request explicando as mudanças.
 
 ## Licença
 
@@ -76,5 +67,5 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 Para dúvidas ou sugestões, entre em contato:
 
-- **Email**: seu-email@example.com
-- **GitHub**: [seu-usuario](https://github.com/seu-usuario)
+- **Email**: paulo.fernandojacinto@ufrpe.br
+- **GitHub**: [pauloneto342](https://github.com/pauloneto342)
