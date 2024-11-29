@@ -10,12 +10,39 @@ def plot_lattice(points, a_length, b_length=None, c_length=None, title="Lattice"
     c_length = c_length or a_length
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
+
+   
     ax.scatter(points[:, 0], points[:, 1], points[:, 2], color='blue')
+
+    
     for p1 in points:
         for p2 in points:
             distance = np.linalg.norm(p1 - p2)
             if any(np.isclose(distance, d) for d in (a_length, b_length, c_length)):
                 ax.plot([p1[0], p2[0]], [p1[1], p2[1]], [p1[2], p2[2]], color='gray')
+
+
+    x_limits = (np.min(points[:, 0]), np.max(points[:, 0]))
+    y_limits = (np.min(points[:, 1]), np.max(points[:, 1]))
+    z_limits = (np.min(points[:, 2]), np.max(points[:, 2]))
+    
+    ax.set_xlim(x_limits)
+    ax.set_ylim(y_limits)
+    ax.set_zlim(z_limits)
+
+ 
+    max_range = np.array([x_limits[1] - x_limits[0], 
+                          y_limits[1] - y_limits[0], 
+                          z_limits[1] - z_limits[0]]).max() / 2.0
+
+    mid_x = (x_limits[0] + x_limits[1]) / 2.0
+    mid_y = (y_limits[0] + y_limits[1]) / 2.0
+    mid_z = (z_limits[0] + z_limits[1]) / 2.0
+
+    ax.set_xlim(mid_x - max_range, mid_x + max_range)
+    ax.set_ylim(mid_y - max_range, mid_y + max_range)
+    ax.set_zlim(mid_z - max_range, mid_z + max_range)
+
     ax.set_title(title)
     ax.set_xlabel('X')
     ax.set_ylabel('Y')
